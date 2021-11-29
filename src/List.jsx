@@ -4,7 +4,7 @@ function List() {
    return (
     <ol>
         <li>Mobiles</li>
-        <li>TVs</li>
+        <li>TVs and Radio</li>
         <li>Chargers</li>
         <li>EarPhones</li>
     </ol>
