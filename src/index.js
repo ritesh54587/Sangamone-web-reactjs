@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Heading from './Heading';
+import Para from './Para';
+import List from './List';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<>
+<Heading/>
+<Para/>
+<List/>
+
+</>
+ ,
   document.getElementById('root')
 );
 
